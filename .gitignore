@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Tauri
+src-tauri/target/
+
+# Go
+backend/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# Temporary
+tmp/
+temp/
